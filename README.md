@@ -55,12 +55,6 @@ This project turns an **ESP32** into a self‑contained, secure environmental no
 
 *Click the badge above to watch the full working demo (hosted on Google Drive).*
 
-</div>
-
-> 🔗 **TODO:** Replace `PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE` above with your actual shareable Google Drive video link (Anyone with the link → Viewer).
-
----
-
 ## 💡 Concept
 
 <div align="center">
