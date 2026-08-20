@@ -4,8 +4,9 @@
 
 ### AES‑128 Encrypted • Wi‑Fi Connected • ThingSpeak Powered • Geo‑Located
 
-[![Platform](https://img.shields.io/badge/Platform-ESP32-1f6feb?style=for-the-badge&logo=espressif&logoColor=white)](#)
-[![Framework](https://img.shields.io/badge/Framework-ESP--IDF-3fb950?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
+[![Platform](https://img.shields.io/badge/MCU-ESP32-1f6feb?style=for-the-badge&logo=espressif&logoColor=white)](#)
+[![Framework](https://img.shields.io/badge/Devlopment_Environment-ESP--IDF-3fb950?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
+[![Framework](https://img.shields.io/badge/Data_Processing-MATLAB-3fb950?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
 [![Language](https://img.shields.io/badge/Language-C%2B%2B-d29922?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
 [![Security](https://img.shields.io/badge/Security-AES--128--CBC-f778ba?style=for-the-badge&logo=letsencrypt&logoColor=white)](#)
 [![Cloud](https://img.shields.io/badge/Cloud-ThingSpeak-a371f7?style=for-the-badge&logo=mathworks&logoColor=white)](#)
