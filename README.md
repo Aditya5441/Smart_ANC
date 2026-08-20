@@ -257,15 +257,6 @@ For production deployments, consider:
 
 ---
 
-## 🧭 Roadmap
-
-- [ ] Move secrets to NVS-backed provisioning
-- [ ] Add OTA update support
-- [ ] Design a proper PCB to replace the perfboard prototype
-- [ ] Optional MQTT transport alongside HTTP
-
----
-
 ## 📄 License
 
 Released under the **MIT License** — see `LICENSE` for details.
