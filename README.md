@@ -12,7 +12,7 @@
 [![Cloud](https://img.shields.io/badge/Cloud-ThingSpeak-a371f7?style=for-the-badge&logo=mathworks&logoColor=white)](#)
 [![License](https://img.shields.io/badge/License-MIT-58a6ff?style=for-the-badge)](#-license)
 
-*A native ESP‑IDF (C++) port of an Arduino noise‑monitoring sketch — capturing ambient sound, encrypting it on‑device, and streaming it securely to the cloud.*
+*An ESP32-based IoT noise monitor that captures ambient sound through a KY-038 sensor and analog op-amp front end, then encrypts the readings with AES-128-CBC before streaming them to a ThingSpeak cloud dashboard over Wi-Fi. It combines analog circuit design (simulated in Multisim), embedded ESP-IDF firmware, and secure cloud telemetry with automatic geolocation tagging.*
 
 </div>
 
