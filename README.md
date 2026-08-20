@@ -51,7 +51,7 @@ This project turns an **ESP32** into a self‑contained, secure environmental no
 
 <div align="center">
 
-[![Watch the demo](https://img.shields.io/badge/▶_Watch_Demo-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)
+[![Watch the demo](https://img.shields.io/badge/▶_Watch_Demo-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)]((https://drive.google.com/file/d/1ilAXHMMXGtKo6F4LVhbQhirF90QxFUyl/view?usp=drivesdk))
 
 *Click the badge above to watch the full working demo (hosted on Google Drive).*
 
