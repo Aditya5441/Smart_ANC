@@ -70,7 +70,7 @@ The core idea: a **microphone** captures the ambient input signal, a **microproc
 The analog front end conditions the KY‑038 output through a **BC547 transistor pre‑amp stage** and **dual op‑amp (741) comparator/gain stages**, before handing a clean signal to the ESP32's ADC.
 
 <div align="center">
-<img src="docs/images/circuit_diagram.jpeg" alt="Circuit diagram — analog front end and ESP32 interface" width="100%">
+<img src="Pics/Conceptual_block_diagram.png" alt="Circuit diagram — analog front end and ESP32 interface" width="100%">
 
 <sub>Clean schematic — transistor pre‑amp, dual op‑amp stage, KY‑038 sensor, and ESP32 interface</sub>
 </div>
@@ -79,7 +79,7 @@ The analog front end conditions the KY‑038 output through a **BC547 transistor
 <summary><b>📝 Original hand‑drawn schematic (click to expand)</b></summary>
 <br>
 <div align="center">
-<img src="docs/images/hand_drawn_circuit_diagram.jpg" alt="Hand-drawn circuit diagram" width="100%">
+<img src="Pics/Hand_drawn_circuit_diagram.jpg" alt="Hand-drawn circuit diagram" width="100%">
 </div>
 </details>
 
@@ -97,10 +97,10 @@ The analog front end conditions the KY‑038 output through a **BC547 transistor
 The analog stage was validated in **NI Multisim** before breadboarding — a BC547 transistor pre‑amp feeding two LM741 op‑amp stages (±12 V rails), probed on a virtual four‑channel oscilloscope.
 
 <div align="center">
-<img src="docs/images/multisim_simulation_circuit.jpg" alt="Multisim simulation schematic" width="100%">
+<img src="Pics/multisim_simulation_circuit.jpg" alt="Multisim simulation schematic" width="100%">
 <sub>Multisim schematic — transistor pre‑amp + dual 741 op‑amp stages</sub>
 <br><br>
-<img src="docs/images/multisim_oscilloscope_output.jpg" alt="Multisim oscilloscope output" width="100%">
+<img src="Pics/multisim_op.jpg" alt="Multisim oscilloscope output" width="100%">
 <sub>Four‑channel oscilloscope trace showing the signal settling through each amplification stage</sub>
 </div>
 
@@ -112,12 +112,12 @@ Prototyped on general‑purpose perfboard, powered by a rechargeable 18650 cell 
 
 <div align="center">
 
-<img src="docs/images/pcb_topview.jpg" alt="Perfboard build - top view" width="100%">
+<img src="Pics/pcb_topview.jpg" alt="Perfboard build - top view" width="100%">
 <sub>Top view — ESP32, sensor module, discrete analog components, 18650 cell + charge module</sub>
 
 <br><br>
 
-<img src="docs/images/pcb_backside.jpg" alt="Perfboard build - wiring side" width="100%">
+<img src="Pics/images/pcb_backside.jpg" alt="Perfboard build - wiring side" width="100%">
 <sub>Underside wiring — point‑to‑point hand soldering with power switch</sub>
 
 </div>
@@ -129,7 +129,7 @@ Prototyped on general‑purpose perfboard, powered by a rechargeable 18650 cell 
 Data lands on **ThingSpeak**, which plots the raw device input alongside the processed output level in real time, plus a map pin from the one‑time geolocation update.
 
 <div align="center">
-<img src="docs/images/web_dashboard.jpg" alt="ThingSpeak web dashboard" width="100%">
+<img src="Pics/web_dashboard.jpg" alt="ThingSpeak web dashboard" width="100%">
 <sub>Field 1 — Device input (dB) · Field 2 — Device output (dB) · Channel location map</sub>
 </div>
 
