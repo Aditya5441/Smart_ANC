@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔊 ESP32 Secure IoT Noise Monitor
+# 🔊 Smart Noise Monitoring and Cancellation Device
 
 ### AES‑128 Encrypted • Wi‑Fi Connected • ThingSpeak Powered • Geo‑Located
 
